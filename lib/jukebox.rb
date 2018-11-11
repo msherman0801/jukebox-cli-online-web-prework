@@ -21,6 +21,6 @@ end
 def list(songs)
   counter = 0
   songs.each_with_index do |e,i|
-    puts "#{counter += 1}. #{i}"
+    puts "#{i + 1}. #{e}"
   end
 end
