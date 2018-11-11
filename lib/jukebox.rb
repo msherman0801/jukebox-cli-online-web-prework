@@ -17,3 +17,10 @@ def help
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end
+
+def list(songs)
+  counter = 0
+  songs.each do |i|
+    puts "#{counter += 1}. #{i}"
+  end
+end
