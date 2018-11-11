@@ -30,4 +30,7 @@ def play(songs)
   out = gets.chomp
   songs.each_with_index do |e,i|
     if out == songs[i + 1]
-      puts e
+      puts "#{e}"
+    end 
+  end 
+end 
